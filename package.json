@@ -1,0 +1,21 @@
+{
+  "name": "step-stl-viewer",
+  "version": "1.0.0",
+  "description": "Offline STEP/STL viewer that runs from file:// with no server and no network",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node scripts/test-fixtures.mjs",
+    "smoke": "node scripts/occt-smoke.mjs",
+    "verify": "node scripts/verify.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "occt-import-js": "0.0.23",
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.1"
+  }
+}
